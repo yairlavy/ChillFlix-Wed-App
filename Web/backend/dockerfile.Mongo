@@ -1,0 +1,22 @@
+# Use node image for the MongoServer app
+FROM node:latest
+
+WORKDIR /usr/src/MongoServer/app
+
+# Copy package.json
+COPY ./src/MongoServer/package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the application code.
+COPY ./src/MongoServer /usr/src/MongoServer/app
+
+# Set the environment variable correctly for Linux
+ENV NODE_ENV=local
+
+# Expose the necessary port
+EXPOSE ${PORT}
+
+# Command to start the application
+CMD ["npm", "start"]

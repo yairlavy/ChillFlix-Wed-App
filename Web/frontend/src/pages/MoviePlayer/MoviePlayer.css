@@ -1,0 +1,129 @@
+/* Container */
+.movie-player-container {
+  position: relative;
+  width: 100%; /* Default size */
+  height: 100vh; /* Default height */
+  background-color: black;
+  margin: 0 auto;
+  transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, right 0.3s ease;
+}
+
+.movie-player-container.minimized {
+  position: fixed; /* Positioning for minimized state */
+  top: 10px;
+  right: 10px;
+  width: 50%; /* Minimized width */
+  height: 50vh; /* Minimized height */
+  z-index: 1000; /* Ensure it's on top */
+}
+
+/* Video Player */
+.movie-player-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* Control Bars - Appear on Hover */
+.movie-player-container:hover .movie-player-top-controls,
+.movie-player-container:hover .movie-player-controls {
+  opacity: 1;
+}
+
+.movie-player-top-controls,
+.movie-player-controls {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Top Control Bar */
+.movie-player-top-controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5); /* Transparent background */
+  color: white;
+  z-index: 1000;
+}
+
+.top-control-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.top-control-button:hover {
+  color: #e50914;
+}
+
+.title-display {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Bottom Control Bar */
+.movie-player-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8); /* Less transparent for clarity */
+  color: white;
+}
+
+.control-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.control-button:hover {
+  transform: scale(1.1);
+  color: #e50914;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.progress-bar {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.time-display {
+  font-size: 1rem;
+  margin: 0 10px;
+  color: white;
+}
+
+/* Locked State */
+.locked {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.movie-player-container.mobile {
+  width: 100%;
+  height: 60vh; /* Adjust height for mobile */
+}
+
+.movie-player-controls {
+  bottom: 0; /* Stick the controls at the bottom */
+}
+
+.movie-player-top-controls {
+  top: 0;
+}

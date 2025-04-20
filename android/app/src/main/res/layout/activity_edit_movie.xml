@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_movie"
+            android:textSize="24sp"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="10dp" />
+
+        <!-- Movie Selector -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_movie"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold" />
+        <Spinner
+            android:id="@+id/spinnerMovies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+        <!-- Movie Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_title"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etMovieTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_movie_title"
+            android:textColor="@color/primary_text"
+            android:padding="12dp"/>
+
+        <!-- Overview -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/overview"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etOverview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_overview"
+            android:textColor="@color/primary_text"
+            android:padding="12dp"
+            android:minHeight="100dp"/>
+
+        <!-- Genres -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/genres_comma_separated"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etGenres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/e_g_action_comedy"
+            android:textColor="@color/primary_text"
+            android:padding="12dp"/>
+
+        <!-- Runtime -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/runtime_minutes"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etRuntime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_runtime"
+            android:textColor="@color/primary_text"
+            android:padding="12dp"
+            android:inputType="number"/>
+
+        <!-- Poster Path Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/poster_path"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etPosterPath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_poster_path_url"
+            android:textColor="@color/primary_text"
+            android:padding="12dp"/>
+        <Button
+            android:id="@+id/btnSelectPoster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_poster_file"
+            android:backgroundTint="@color/button_background"
+            android:textColor="@color/button_text"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Backdrop Path Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/backdrop_path"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etBackdropPath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_backdrop_path_url"
+            android:textColor="@color/primary_text"
+            android:padding="12dp"/>
+        <Button
+            android:id="@+id/btnSelectBackdrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_backdrop_file"
+            android:backgroundTint="@color/button_background"
+            android:textColor="@color/button_text"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Trailer Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trailer"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etTrailer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_trailer_url"
+            android:textColor="@color/primary_text"
+            android:padding="12dp"/>
+        <Button
+            android:id="@+id/btnSelectTrailer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_trailer_file"
+            android:backgroundTint="@color/button_background"
+            android:textColor="@color/button_text"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Update Button -->
+        <Button
+            android:id="@+id/btnUpdateMovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update_movie"
+            android:backgroundTint="@color/button_background"
+            android:textColor="@color/button_text"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>

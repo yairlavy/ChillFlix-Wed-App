@@ -1,0 +1,27 @@
+/* General page layout */
+.category-page {
+  font-family: sans-serif, Arial;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+}
+
+/* Category container */
+.category-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.category-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #eee;
+}
+
+/* Movies grid container */
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 0;
+  margin: 0;
+}

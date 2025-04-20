@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".main.activities.VideoPlayerActivity">
+
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/exo_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        app:use_controller="false"
+        app:show_buffering="when_playing"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="409dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteX="1dp">
+
+            <ImageButton
+                android:id="@+id/btn_forward_10"
+                android:layout_width="93dp"
+                android:layout_height="98dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/forward_10"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.953"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/btn_skip_previous"-->
+<!--                android:layout_width="69dp"-->
+<!--                android:layout_height="92dp"-->
+<!--                android:background="@android:color/transparent"-->
+<!--                android:src="@drawable/skip_next"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.978"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintVertical_bias="0.0" />-->
+
+            <ImageButton
+                android:id="@+id/btn_play_pause"
+                android:layout_width="96dp"
+                android:layout_height="67dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/play_arrow"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.921" />
+
+            <ImageButton
+                android:id="@+id/btn_rewind"
+                android:layout_width="85dp"
+                android:layout_height="77dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/fast_rewind"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.154"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.932" />
+
+            <ImageButton
+                android:id="@+id/btn_forward"
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/fast_forward"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.876"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.923" />
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/btn_video_settings"-->
+<!--                android:layout_width="109dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:background="@android:color/transparent"-->
+<!--                android:src="@drawable/video_settings"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.53"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintVertical_bias="0.009" />-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.media3.ui.PlayerView>
+
+    <ProgressBar
+        android:id="@+id/exo_player_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

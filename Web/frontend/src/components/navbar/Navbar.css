@@ -1,0 +1,217 @@
+.navbar {
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  z-index: 10;
+  background-color: rgb(55, 55, 55);
+  background-color: rgba(55, 55, 55, 0.5);
+  background-image: linear-gradient(180deg, #000000b3 10%, #0000);  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px; 
+  transition: all .2s ease-out;
+  height: 4rem;
+}
+
+.navbar.scrolled {
+  background-color: #141414;
+  opacity: 1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.navbar .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 30px;
+}
+
+.navbar .left img {
+  height: 50px;
+  margin-right: 0;
+  margin-top: 10px;
+  bottom: 90px;
+  transition: transform 0.3s ease;
+}
+
+.navbar .left img:hover {
+  transform: scale(1.1);
+}
+
+.navbar .left span {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  transition: color 0.3s ease;
+}
+
+.navbar .left span:hover {
+  opacity: 0.4;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 30px; 
+  margin-left: 0px;
+}
+
+.navbar .links .link {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .right {
+  display: flex;
+  align-items: center;
+}
+
+.right img {
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+  border-color: black;
+  margin-right: 50px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.navbar .right img:hover {
+  transform: scale(1.1);
+}
+
+.navbar .profile {
+  position: relative;
+}
+
+.navbar .profile .options {
+  display: block;
+  background-color: #141414;
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  min-width: 140px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  z-index: 10;
+  padding: 10px;
+}
+
+.navbar .profile .options span {
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+.navbar .profile .options span:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* The search box container */
+.search {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+}
+
+/* The search input field (Initially hidden) */
+.search form {
+  position: fixed;
+  font-size: 12px;
+  opacity: 0.5;
+  outline: none;
+  transition: all .2s ease-out;
+  top: 17px;
+  left: 77%;
+  transform: translateX(-50%);
+  z-index: -1; 
+  background-color: #333;
+  color: white;
+  animation-name: slideLeft;
+  animation-duration: 0.5s;
+}
+
+.search.open form {
+  opacity: 1;
+}
+
+@keyframes slideLeft {
+  from { transform: translateX(-60px); }
+}
+
+.search form input {
+  padding: 6px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+}
+
+.search svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 0;
+  margin-left: 1px;
+  object-fit: fill;
+  transition: transform 0.3s ease;
+}
+
+.search img:hover {
+  transform: scale(1.1);
+}
+
+
+/* CSS for the Categories Dropdown */
+.categories {
+  position: relative;
+  cursor: pointer;
+}
+
+.categoriesList {
+  position: absolute;
+  margin-top: 15px;
+  left: -60px;
+  background-color: #141414;
+  color: white;
+  min-width: 200px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-height: 100px;
+  overflow-y: auto; 
+  overflow-x: hidden;
+  z-index: 10;
+}
+
+.categoriesList .category {
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.categoriesList .category:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

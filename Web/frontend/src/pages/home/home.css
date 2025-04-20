@@ -1,0 +1,122 @@
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: 
+      linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+      url(../../Assets/background_image.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+  }
+  
+  .home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  }
+  
+  .home-logo {
+    width: 150px;
+  }
+   
+  .home-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .home-login,
+  .home-signup {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .home-login {
+    background: #e50914;
+    color: #fff;
+  }
+  
+  .home-login:hover {
+    background: #f40612;
+  }
+  
+  .home-signup {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  
+  .home-signup:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  .home-content {
+    text-align: center;
+    margin: auto; /* Centers content vertically */
+  }
+  
+  .home-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .home-subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .home-price {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .home-email-note {
+    font-size: 14px;
+    color: #b3b3b3;
+    margin-bottom: 20px;
+  }
+  
+  .home-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .home-email-input {
+    width: 300px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .home-start-button {
+    background: #e50914;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-start-button:hover {
+    background: #f40612;
+  }
+  

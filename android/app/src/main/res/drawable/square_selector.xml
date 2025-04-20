@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When checked, show filled square -->
+    <item android:state_checked="true" android:drawable="@drawable/square_filled" />
+    <!-- Default (unchecked), show empty square -->
+    <item android:drawable="@drawable/square_empty" />
+</selector>

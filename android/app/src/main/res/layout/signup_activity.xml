@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"> <!-- Background image -->
+
+    <!-- Black Overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000" /> <!-- Semi-transparent black overlay -->
+
+    <!-- Centered Form Container -->
+    <LinearLayout
+        android:id="@+id/form_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_black_box"
+    android:padding="24dp"
+    android:layout_marginHorizontal="32dp">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo" />
+
+    <!-- Sign Up Title -->
+    <TextView
+        android:id="@+id/sign_up_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_address"
+        android:backgroundTint="#FFFFFF"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#DDDDDD"
+        android:layout_marginBottom="12dp"
+        android:inputType="textEmailAddress"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:backgroundTint="#FFFFFF"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#DDDDDD"
+        android:layout_marginBottom="12dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:backgroundTint="#FFFFFF"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#DDDDDD"
+        android:layout_marginBottom="12dp"
+        android:inputType="textPassword"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <!-- Password Verification Input -->
+    <EditText
+        android:id="@+id/verify_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_verification"
+        android:backgroundTint="#FFFFFF"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#DDDDDD"
+        android:layout_marginBottom="12dp"
+        android:inputType="textPassword"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <!-- Name Input -->
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:backgroundTint="#FFFFFF"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#DDDDDD"
+        android:layout_marginBottom="16dp"
+        android:inputType="text"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <!-- Select Avatar Section -->
+    <TextView
+        android:id="@+id/select_avatar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_your_avatar"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/avatar1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/avatar1"
+            android:layout_marginHorizontal="8dp"
+            android:contentDescription="@string/avatar_1"
+            android:background="@android:color/transparent" /> <!-- Default no border -->
+
+        <ImageView
+            android:id="@+id/avatar2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/avatar2"
+            android:layout_marginHorizontal="8dp"
+            android:contentDescription="@string/avatar_2"
+            android:background="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/avatar3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/avatar3"
+            android:layout_marginHorizontal="8dp"
+            android:contentDescription="@string/avatar_3"
+            android:background="@android:color/transparent" />
+
+
+    </LinearLayout>
+
+    <!-- Sign-Up Button -->
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:backgroundTint="#E50914"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <!-- Static Text: Already have an account? -->
+            <TextView
+                android:id="@+id/static_text_already_have_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/already_have_an_account"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <!-- Sign In Link -->
+            <TextView
+                android:id="@+id/sign_in_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground" />
+        </LinearLayout>
+
+</LinearLayout>
+    </FrameLayout>

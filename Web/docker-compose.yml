@@ -1,0 +1,60 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: ./backend
+      dockerfile: dockerfile.Mongo
+    ports:
+      - "${PORT}:${PORT}"
+    env_file:
+      - ./backend/src/MongoServer/config/.env.local
+    environment:
+      - NODE_ENV=local
+      - CONNECTION_STRING
+      - PORT
+      - RECOMMEND_PORT
+      - RECOMMEND_HOST
+    depends_on:
+      - mongo
+      - recommend
+    container_name: MongoServer
+
+  recommend:
+    build:
+      context: ./backend
+      dockerfile: dockerfile.Recommend
+    ports:
+      - "${RECOMMEND_PORT}:${RECOMMEND_PORT}"
+    env_file:
+      - ./backend/src/MongoServer/config/.env.local
+    environment:
+      - RECOMMEND_PORT
+      - RECOMMEND_HOST
+    depends_on:
+      - mongo
+    container_name: RecommendServer
+
+  mongo:
+    image: mongo:latest
+    container_name: MongoDB
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./backend/movies.json:/movies.json
+      - ./backend/categories.json:/categories.json
+    command: ["mongod", "--logpath", "/data/db/mongo.log", "--logappend"]
+  
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: dockerfile.React
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=local
+    container_name: ReactFrontend
+
+volumes:
+  mongo_data:

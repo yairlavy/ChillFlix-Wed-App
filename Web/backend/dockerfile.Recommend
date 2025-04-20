@@ -1,0 +1,30 @@
+# Use GCC image for building C++ projects
+FROM gcc:latest
+
+# Install required dependencies
+RUN apt-get update && apt-get install -y \
+    cmake \
+    git \
+    build-essential \
+    python3 \
+    python3-pip
+
+# Set the working directory in the container.
+WORKDIR /usr/src/Netflix
+
+# Copy the 'src/RecommendSystem' directory and 'data' directory into the container
+COPY src/RecommendSystem /usr/src/Netflix/src/RecommendSystem
+COPY data /usr/src/Netflix/data
+
+# Create a build directory and set it as the working directory
+RUN mkdir build
+WORKDIR /usr/src/Netflix/build
+
+# Run cmake and build the project
+RUN cmake ../src/RecommendSystem && make
+
+# Expose the port defined by RECOMMEND_PORT environment variable
+EXPOSE ${RECOMMEND_PORT}
+
+# Default command to run the app executable, using the RECOMMEND_PORT environment variable.
+CMD ["sh", "-c", "./Netflix $RECOMMEND_PORT"]

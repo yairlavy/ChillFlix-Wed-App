@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/c"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/c"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.AndroidChillflix"
+        tools:targetApi="31">
+        <activity
+            android:name=".main.activities.CategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.activities.MovieDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.activities.UserSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.activities.Admin.DeleteCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.activities.Admin.EditCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.activities.Admin.AddCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.activities.Admin.DeleteMovieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.activities.Admin.EditMovieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.activities.Admin.AddMovieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.activities.Admin.AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".main.activities.VideoPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main.activities.HomeActivity" />
+        <activity android:name=".main.activities.SignUpActivity" />
+        <activity android:name=".main.activities.SignInActivity" />
+        <activity android:name=".main.activities.BrowseActivity" />
+        <activity android:name=".main.activities.SearchActivity" />
+    </application>
+
+</manifest>

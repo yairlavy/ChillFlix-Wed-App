@@ -1,0 +1,88 @@
+/* General page layout */
+.search-page {
+  font-family: sans-serif, Arial;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+}
+
+/* Search container */
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #eee;
+}
+
+/* Movies grid container */
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 50px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+/* Movie card */
+.search-page .movie{
+  border-radius: 10px;
+  overflow: hidden;
+  height: 180px;
+  margin-bottom: -30px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  text-decoration: none;
+  z-index: 1;
+}
+
+a{
+  text-decoration: none
+}
+
+.search-page .movie:hover .movie-title{
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s, text-shadow 0.3s;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.movie:hover {
+  transform: scale(var(--grow-factor));
+  background-color: black;
+  z-index: 100;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  
+}
+
+/* Movie poster */
+.search-page .movie-poster {
+  width: 100%;
+  top: 0;
+  height: auto;
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  z-index: -1;
+}
+
+.movie-title {
+  font-size: 1rem;
+  font-weight: 500;
+  right: 60px;
+  position: relative;
+  width: 170px;
+  z-index: 2;
+  opacity: 0;
+}
+
+

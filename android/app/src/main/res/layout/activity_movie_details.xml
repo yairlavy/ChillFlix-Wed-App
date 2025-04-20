@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <!-- Top Bar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/background"
+        android:elevation="8dp"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <include
+            android:id="@+id/top_bar"
+            layout="@layout/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Nested ScrollView for scrollable content -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Movie Banner -->
+            <ImageView
+                android:id="@+id/ivMovieBanner"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop" />
+
+            <!-- Movie Title -->
+            <TextView
+                android:id="@+id/tvMovieTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/primary_text"
+                android:text="@string/title"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:paddingTop="10dp" />
+
+            <!-- Movie Metadata (Duration, Genres, Description) -->
+            <LinearLayout
+                android:id="@+id/llMovieMetadata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvMovieDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/duration"
+                    android:textSize="14sp"
+                    android:textColor="@color/primary_text"
+                    android:paddingEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/tvMovieGenres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/genres"
+                    android:textSize="14sp"
+                    android:textColor="@color/primary_text" />
+            </LinearLayout>
+
+            <!-- Movie Description -->
+            <TextView
+                android:id="@+id/tvMovieOverview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/overview_"
+                android:textColor="@color/primary_text"
+                android:paddingTop="10dp" />
+
+            <!-- Action Buttons -->
+            <LinearLayout
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/btnPlay"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/play"
+                    android:backgroundTint="@color/button_background"
+                    android:textColor="@color/button_text" />
+
+                <Button
+                    android:id="@+id/btnWatchlist"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/add_to_watchlist"
+                    android:backgroundTint="@color/secondary_button"
+                    android:textColor="@color/button_text"
+                    android:layout_marginStart="10dp" />
+            </LinearLayout>
+
+
+            <!-- Similar Movies Section -->
+            <TextView
+                android:id="@+id/tvSimilarMovies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/similar_movies"
+                android:textSize="18sp"
+                android:textColor="@color/primary_text"
+                android:textStyle="bold"
+                android:paddingTop="16dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewSimilarMovies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/item_movie" />
+
+            <TextView
+                android:id="@+id/tvNoRecommendedMovies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_recommended_movies_found"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text"
+                android:gravity="center"
+                android:visibility="gone"
+                android:paddingTop="8dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Bottom Bar -->
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/background"
+        app:fabCradleMargin="10dp"
+        app:fabCradleRoundedCornerRadius="20dp"
+        app:hideOnScroll="false"
+        tools:ignore="VisualLintBottomAppBar">
+
+        <include
+            android:id="@+id/bottom_bar"
+            layout="@layout/bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,57 @@
+/* Movie card */
+.movie{
+  width: 229px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 180px;
+  padding-bottom: -10px;
+  margin-bottom: -40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  text-decoration: none;
+  z-index: 1;
+  position: relative;
+}
+
+a{
+  text-decoration: none
+}
+
+.movie:hover .movie-title{
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s, text-shadow 0.3s;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.movie:hover {
+  transform: scale(var(--grow-factor));
+  background-color: black;
+  z-index: 100;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  
+}
+
+/* Movie poster */
+.movie-poster {
+  width: 100%;
+  top: 0;
+  height: 130px;
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  z-index: -1;
+}
+
+.movie-title {
+  font-size: 1rem;
+  font-weight: 500;
+  right: 60px;
+  position: relative;
+  width: 170px;
+  z-index: 2;
+  opacity: 0;
+}

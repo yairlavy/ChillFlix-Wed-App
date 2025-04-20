@@ -1,0 +1,162 @@
+/* Settings Page */
+.settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #121212; 
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 100vh; 
+}
+
+/* Title */
+.settings h2 {
+  text-align: center;
+  color: #e50914;
+  margin-bottom: 20px;
+  margin-top: 50px; 
+}
+
+
+/* Form Container */
+.settings form {
+  width: 100%;
+}
+
+/* Form Inputs */
+.settings label {
+  display: block;
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #e5e5e5;
+}
+
+.settings input[type="text"],
+.settings input[type="password"],
+.settings input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+}
+
+.settings input[type="text"]:focus,
+.settings input[type="password"]:focus,
+.settings input[type="file"]:focus {
+  outline: none;
+  border: 1px solid #e50914;
+}
+
+/* Submit Button */
+.settings button {
+  padding: 12px 20px;
+  background-color: #e50914; /* Matching red button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.settings button:disabled {
+  background-color: #ccc;
+}
+
+.settings button:hover {
+  opacity: 0.8;
+  transform: scale(1.03);
+  background-color: #d40813; /* Slightly darker red on hover */
+}
+
+
+/* Profile Image */
+.settings .current-profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+  object-fit: cover;
+  border: 2px solid #e50914; /* Red border around the profile image */
+}
+
+/* Go Back Button */
+.go-back-button {
+  background-color: #1f1f1f;
+  color: #e50914;
+  border: 1px solid #e50914;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.go-back-button:hover {
+  background-color: #e50914;
+  color: white;
+}
+
+.avatar-selection {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.avatar-option {
+  cursor: pointer;
+}
+
+.avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  transition: border 0.3s ease;
+}
+
+.avatar-img.selected {
+  border-color: #007bff;  /* Highlight selected avatar */
+}
+
+.avatar-img:hover {
+  border-color: #007bff; /* Change border color on hover */
+}
+
+.go-back-button {
+  background-color: #1f1f1f;
+  color: #e50914;
+  border: 1px solid #e50914;
+  padding: 2px 2px; /* Smaller padding */
+  font-size: 0.6rem; /* Smaller text size */
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: fit-content;
+  position: absolute; /* Position it absolutely */
+  top: 10px; /* Position at the top */
+  left: 350px; /* Position at the left */
+  transition: all 0.3s ease;
+}
+
+.go-back-button:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  background-color: #e50914;
+  color: white;
+}
+
+
+
+
+
+

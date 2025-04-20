@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <!-- Movie Poster -->
+        <ImageView
+            android:id="@+id/moviePosterImageView"
+            android:layout_width="150dp"
+            android:layout_height="225dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/progress_bar_red" />
+
+        <!-- Movie Title Overlaid -->
+        <TextView
+            android:id="@+id/movieTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#99000000"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:padding="8dp"
+            android:text="@string/movie_title"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

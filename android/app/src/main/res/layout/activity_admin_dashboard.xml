@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background"
+    android:textColor="@color/primary_text">
+
+    <!-- TextView to display live statistics -->
+    <TextView
+        android:id="@+id/tvAppStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading data..."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/primary_text" />
+
+    <!-- Button to toggle the admin panel visibility -->
+    <Button
+        android:id="@+id/btnOpenAdminPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Admin Panel"
+        android:backgroundTint="@color/button_background"
+        android:textColor="@color/button_text"
+        android:layout_marginTop="10dp" />
+
+    <!-- Admin panel container -->
+    <LinearLayout
+        android:id="@+id/adminPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:paddingTop="16dp">
+
+        <!-- Scrollable container for admin buttons -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/btnAddMovie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_movie"
+                    android:backgroundTint="@color/button_background"
+                    android:textColor="@color/button_text" />
+
+                <Button
+                    android:id="@+id/btnEditMovie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edit_movie"
+                    android:backgroundTint="@color/button_background"
+                    android:textColor="@color/button_text" />
+
+                <Button
+                    android:id="@+id/btnDeleteMovie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delete_movie"
+                    android:backgroundTint="@color/button_background"
+                    android:textColor="@color/button_text" />
+
+                <Button
+                    android:id="@+id/btnAddCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_category"
+                    android:backgroundTint="@color/button_background"
+                    android:textColor="@color/button_text" />
+
+                <Button
+                    android:id="@+id/btnEditCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edit_category"
+                    android:backgroundTint="@color/button_background"
+                    android:textColor="@color/button_text" />
+
+                <Button
+                    android:id="@+id/btnDeleteCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delete_category"
+                    android:backgroundTint="@color/button_background"
+                    android:textColor="@color/button_text" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

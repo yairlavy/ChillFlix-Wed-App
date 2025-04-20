@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:textColor="@color/primary_text"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_category"
+            android:textSize="24sp"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="10dp" />
+
+        <!-- Category Name -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category_name"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etCategoryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textColor="@color/primary_text"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <!-- Promoted Category (square toggle) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/promoted_category"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <CheckBox
+            android:id="@+id/checkboxPromoted"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:button="@drawable/square_selector" />
+
+        <!-- Save Category Button -->
+        <Button
+            android:id="@+id/btnSaveCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_category"
+            android:backgroundTint="@color/button_background"
+            android:textColor="@color/button_text"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>

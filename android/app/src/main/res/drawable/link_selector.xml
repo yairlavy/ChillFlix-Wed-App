@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed state (when the user touches the link) -->
+    <item android:state_pressed="true" android:color="#AAAAAA" />
+
+    <!-- Focused state (when the link is focused) -->
+    <item android:state_focused="true" android:color="#CCCCCC" />
+
+    <!-- Default state (normal link color) -->
+    <item android:color="#FFFFFF" />
+</selector>

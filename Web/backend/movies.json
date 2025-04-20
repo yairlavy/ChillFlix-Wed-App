@@ -1,0 +1,1203 @@
+[
+    {
+        "short_id": 1,
+        "title": "The Last Horizon",
+        "runtime": 120,
+        "backdrop_path": "/916x515/FF5733/FFFFFF?text=The+Last+Horizon",
+        "poster_path": "/420x631/008080/FFFFFF?text=The+Last+Horizon",
+        "overview": "A daring space exploration mission uncovers an ancient civilization on a distant planet.",
+        "genres": [
+            "Science Fiction",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 2,
+        "title": "Nightmare's Edge",
+        "runtime": 90,
+        "backdrop_path": "/916x515/FF6347/FFFFFF?text=Nightmare's+Edge",
+        "poster_path": "/420x631/6A5ACD/FFFFFF?text=Nightmare's+Edge",
+        "overview": "A group of friends must confront their deepest fears when they enter a haunted mansion.",
+        "genres": [
+            "Horror",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 3,
+        "title": "Echoes of Tomorrow",
+        "runtime": 140,
+        "backdrop_path": "/916x515/483D8B/FFFFFF?text=Echoes+of+Tomorrow",
+        "poster_path": "/420x631/32CD32/FFFFFF?text=Echoes+of+Tomorrow",
+        "overview": "A scientist discovers a way to communicate with the future, but the consequences are dire.",
+        "genres": [
+            "Drama",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 4,
+        "title": "Silent Skies",
+        "runtime": 110,
+        "backdrop_path": "/916x515/0000FF/FFFFFF?text=Silent+Skies",
+        "poster_path": "/420x631/FFD700/FFFFFF?text=Silent+Skies",
+        "overview": "In a world where the skies are suddenly silent, a young girl embarks on a quest to find the truth.",
+        "genres": [
+            "Fantasy",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 5,
+        "title": "Inferno's Curse",
+        "runtime": 105,
+        "backdrop_path": "/916x515/DC143C/FFFFFF?text=Inferno's+Curse",
+        "poster_path": "/420x631/8B0000/FFFFFF?text=Inferno's+Curse",
+        "overview": "A cursed relic brings about a fiery end to an ancient civilization, and now its curse threatens the world.",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ]
+    },
+    {
+        "short_id": 6,
+        "title": "Shadows of the Past",
+        "runtime": 130,
+        "backdrop_path": "/916x515/2F4F4F/FFFFFF?text=Shadows+of+the+Past",
+        "poster_path": "/420x631/8A2BE2/FFFFFF?text=Shadows+of+the+Past",
+        "overview": "A man discovers a connection to a past he never knew existed, unlocking secrets that change everything.",
+        "genres": [
+            "Thriller",
+            "Drama"
+        ]
+    },
+    {
+        "short_id": 7,
+        "title": "Crimson Horizon",
+        "runtime": 100,
+        "backdrop_path": "/916x515/7B68EE/FFFFFF?text=Crimson+Horizon",
+        "poster_path": "/420x631/4B0082/FFFFFF?text=Crimson+Horizon",
+        "overview": "A lone soldier journeys through a war-torn land to find his lost comrades and uncover a hidden truth.",
+        "genres": [
+            "Action",
+            "Romance"
+        ]
+    },
+    {
+        "short_id": 8,
+        "title": "Rise of the Phoenix",
+        "runtime": 115,
+        "backdrop_path": "/916x515/FF4500/FFFFFF?text=Rise+of+the+Phoenix",
+        "poster_path": "/420x631/9932CC/FFFFFF?text=Rise+of+the+Phoenix",
+        "overview": "A mythical bird is reborn, and its power may be the key to saving the world from destruction.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 9,
+        "title": "Starlight Voyage",
+        "runtime": 125,
+        "backdrop_path": "/916x515/1E90FF/FFFFFF?text=Starlight+Voyage",
+        "poster_path": "/420x631/800080/FFFFFF?text=Starlight+Voyage",
+        "overview": "A crew of explorers sets sail into the unknown depths of space in search of a new home.",
+        "genres": [
+            "Science Fiction",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 10,
+        "title": "The Whispering Woods",
+        "runtime": 95,
+        "backdrop_path": "/916x515/228B22/FFFFFF?text=The+Whispering+Woods",
+        "poster_path": "/420x631/20B2AA/FFFFFF?text=The+Whispering+Woods",
+        "overview": "A group of friends visit an ancient forest where they uncover secrets that were meant to remain hidden.",
+        "genres": [
+            "Horror",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 11,
+        "title": "The Phantom Within",
+        "runtime": 108,
+        "backdrop_path": "/916x515/FF8C00/FFFFFF?text=The+Phantom+Within",
+        "poster_path": "/420x631/4B0082/FFFFFF?text=The+Phantom+Within",
+        "overview": "A young woman begins experiencing mysterious visions that lead her to uncover a family secret.",
+        "genres": [
+            "Thriller",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 12,
+        "title": "Quantum Escape",
+        "runtime": 140,
+        "backdrop_path": "/916x515/2E8B57/FFFFFF?text=Quantum+Escape",
+        "poster_path": "/420x631/8B4513/FFFFFF?text=Quantum+Escape",
+        "overview": "A group of scientists is trapped in an alternate dimension, fighting to find their way back home.",
+        "genres": [
+            "Science Fiction",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 13,
+        "title": "Frozen Time",
+        "runtime": 125,
+        "backdrop_path": "/916x515/ADD8E6/FFFFFF?text=Frozen+Time",
+        "poster_path": "/420x631/4169E1/FFFFFF?text=Frozen+Time",
+        "overview": "A young man discovers that time has stopped for everyone except him, and he must find a way to restore the flow of time.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 14,
+        "title": "Legacy of the Wolf",
+        "runtime": 110,
+        "backdrop_path": "/916x515/8B0000/FFFFFF?text=Legacy+of+the+Wolf",
+        "poster_path": "/420x631/006400/FFFFFF?text=Legacy+of+the+Wolf",
+        "overview": "A warrior is chosen by a mystical wolf to defend a kingdom from an invading empire.",
+        "genres": [
+            "Fantasy",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 15,
+        "title": "Into the Abyss",
+        "runtime": 95,
+        "backdrop_path": "/916x515/000080/FFFFFF?text=Into+the+Abyss",
+        "poster_path": "/420x631/FF1493/FFFFFF?text=Into+the+Abyss",
+        "overview": "A deep-sea exploration crew must survive after their submersible is trapped at the bottom of the ocean.",
+        "genres": [
+            "Thriller",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 16,
+        "title": "Voices in the Dark",
+        "runtime": 100,
+        "backdrop_path": "/916x515/2F4F4F/FFFFFF?text=Voices+in+the+Dark",
+        "poster_path": "/420x631/FF4500/FFFFFF?text=Voices+in+the+Dark",
+        "overview": "A troubled young man is haunted by strange voices that may hold the key to unraveling a mystery.",
+        "genres": [
+            "Mystery",
+            "Horror"
+        ]
+    },
+    {
+        "short_id": 17,
+        "title": "The Golden Kingdom",
+        "runtime": 135,
+        "backdrop_path": "/916x515/F4A460/FFFFFF?text=The+Golden+Kingdom",
+        "poster_path": "/420x631/FFD700/FFFFFF?text=The+Golden+Kingdom",
+        "overview": "A group of explorers embarks on a perilous journey to uncover a long-lost kingdom of unimaginable wealth.",
+        "genres": [
+            "Adventure",
+            "Fantasy"
+        ]
+    },
+    {
+        "short_id": 18,
+        "title": "The Hidden Portal",
+        "runtime": 120,
+        "backdrop_path": "/916x515/FF6347/FFFFFF?text=The+Hidden+Portal",
+        "poster_path": "/420x631/0000FF/FFFFFF?text=The+Hidden+Portal",
+        "overview": "A young girl discovers a secret portal that leads to a magical world full of strange creatures.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 19,
+        "title": "The Time Traveler's Secret",
+        "runtime": 130,
+        "backdrop_path": "/916x515/800000/FFFFFF?text=The+Time+Traveler's+Secret",
+        "poster_path": "/420x631/7FFF00/FFFFFF?text=The+Time+Traveler's+Secret",
+        "overview": "A man discovers an ancient watch that allows him to travel through time, but with unintended consequences.",
+        "genres": [
+            "Science Fiction",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 20,
+        "title": "Dawn of the Undying",
+        "runtime": 140,
+        "backdrop_path": "/916x515/32CD32/FFFFFF?text=Dawn+of+the+Undying",
+        "poster_path": "/420x631/008B8B/FFFFFF?text=Dawn+of+the+Undying",
+        "overview": "A war between immortal beings threatens to destroy the world, and one man must stop them.",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ]
+    },
+    {
+        "short_id": 21,
+        "title": "Edge of Eternity",
+        "runtime": 115,
+        "backdrop_path": "/916x515/00008B/FFFFFF?text=Edge+of+Eternity",
+        "poster_path": "/420x631/FF6347/FFFFFF?text=Edge+of+Eternity",
+        "overview": "A mysterious figure must traverse dimensions to save a world on the brink of collapse.",
+        "genres": [
+            "Fantasy",
+            "Science Fiction"
+        ]
+    },
+    {
+        "short_id": 22,
+        "title": "The Infinite Dream",
+        "runtime": 125,
+        "backdrop_path": "/916x515/8A2BE2/FFFFFF?text=The+Infinite+Dream",
+        "poster_path": "/420x631/8B008B/FFFFFF?text=The+Infinite+Dream",
+        "overview": "A dreamer must navigate a series of surreal worlds in order to wake up from an eternal slumber.",
+        "genres": [
+            "Adventure",
+            "Fantasy"
+        ]
+    },
+    {
+        "short_id": 23,
+        "title": "Neon Skies",
+        "runtime": 110,
+        "backdrop_path": "/916x515/00FFFF/FFFFFF?text=Neon+Skies",
+        "poster_path": "/420x631/FF00FF/FFFFFF?text=Neon+Skies",
+        "overview": "A futuristic city glows in neon, but danger lurks behind every bright light.",
+        "genres": [
+            "Science Fiction",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 24,
+        "title": "The Lost Temple",
+        "runtime": 140,
+        "backdrop_path": "/916x515/FFD700/FFFFFF?text=The+Lost+Temple",
+        "poster_path": "/420x631/800000/FFFFFF?text=The+Lost+Temple",
+        "overview": "A group of explorers searches for a hidden temple filled with untold riches and danger.",
+        "genres": [
+            "Adventure",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 25,
+        "title": "Shadow of the Titan",
+        "runtime": 100,
+        "backdrop_path": "/916x515/2F4F4F/FFFFFF?text=Shadow+of+the+Titan",
+        "poster_path": "/420x631/4B0082/FFFFFF?text=Shadow+of+the+Titan",
+        "overview": "An ancient titan awakens, and the world must unite to face an unimaginable threat.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 26,
+        "title": "Iron Reign",
+        "runtime": 130,
+        "backdrop_path": "/916x515/000000/FFFFFF?text=Iron+Reign",
+        "poster_path": "/420x631/32CD32/FFFFFF?text=Iron+Reign",
+        "overview": "A warrior discovers that his destiny is tied to the rise of a new empire made of iron.",
+        "genres": [
+            "Action",
+            "Drama"
+        ]
+    },
+    {
+        "short_id": 27,
+        "title": "Whispers in the Void",
+        "runtime": 95,
+        "backdrop_path": "/916x515/8B0000/FFFFFF?text=Whispers+in+the+Void",
+        "poster_path": "/420x631/0000FF/FFFFFF?text=Whispers+in+the+Void",
+        "overview": "Voices from an unknown dimension are calling, and a scientist must decipher their meaning.",
+        "genres": [
+            "Science Fiction",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 28,
+        "title": "The Eternal Flame",
+        "runtime": 110,
+        "backdrop_path": "/916x515/DC143C/FFFFFF?text=The+Eternal+Flame",
+        "poster_path": "/420x631/FF6347/FFFFFF?text=The+Eternal+Flame",
+        "overview": "A flame that never dies burns in a sacred temple, and those who seek it will face trials beyond imagination.",
+        "genres": [
+            "Adventure",
+            "Fantasy"
+        ]
+    },
+    {
+        "short_id": 29,
+        "title": "Venomous Skies",
+        "runtime": 120,
+        "backdrop_path": "/916x515/00FF00/FFFFFF?text=Venomous+Skies",
+        "poster_path": "/420x631/8A2BE2/FFFFFF?text=Venomous+Skies",
+        "overview": "A deadly storm brews in the sky, and a group of survivors must outwit it to survive.",
+        "genres": [
+            "Thriller",
+            "Horror"
+        ]
+    },
+    {
+        "short_id": 30,
+        "title": "Crystal Maze",
+        "runtime": 105,
+        "backdrop_path": "/916x515/FF1493/FFFFFF?text=Crystal+Maze",
+        "poster_path": "/420x631/8B008B/FFFFFF?text=Crystal+Maze",
+        "overview": "A group of adventurers must navigate a dangerous maze filled with traps and illusions to claim an ancient treasure.",
+        "genres": [
+            "Adventure",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 31,
+        "title": "The Veil of Dreams",
+        "runtime": 115,
+        "backdrop_path": "/916x515/8B0000/FFFFFF?text=The+Veil+of+Dreams",
+        "poster_path": "/420x631/000080/FFFFFF?text=The+Veil+of+Dreams",
+        "overview": "A woman discovers that her dreams are a portal to a parallel world, and she must protect it from an impending threat.",
+        "genres": [
+            "Fantasy",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 32,
+        "title": "Frozen Descent",
+        "runtime": 120,
+        "backdrop_path": "/916x515/4682B4/FFFFFF?text=Frozen+Descent",
+        "poster_path": "/420x631/2E8B57/FFFFFF?text=Frozen+Descent",
+        "overview": "A team of explorers is trapped in a freezing wasteland and must fight to survive against the odds.",
+        "genres": [
+            "Adventure",
+            "Drama"
+        ]
+    },
+    {
+        "short_id": 33,
+        "title": "Wrath of the Sun God",
+        "runtime": 135,
+        "backdrop_path": "/916x515/FFD700/FFFFFF?text=Wrath+of+the+Sun+God",
+        "poster_path": "/420x631/FF4500/FFFFFF?text=Wrath+of+the+Sun+God",
+        "overview": "An ancient curse threatens the world, and only a chosen warrior can stop the wrath of the Sun God.",
+        "genres": [
+            "Action",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 34,
+        "title": "The Broken Sword",
+        "runtime": 110,
+        "backdrop_path": "/916x515/8B4513/FFFFFF?text=The+Broken+Sword",
+        "poster_path": "/420x631/D2691E/FFFFFF?text=The+Broken+Sword",
+        "overview": "A legendary warrior seeks to reclaim a broken sword that holds the key to an ancient prophecy.",
+        "genres": [
+            "Fantasy",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 35,
+        "title": "Chasing Shadows",
+        "runtime": 105,
+        "backdrop_path": "/916x515/6A5ACD/FFFFFF?text=Chasing+Shadows",
+        "poster_path": "/420x631/2F4F4F/FFFFFF?text=Chasing+Shadows",
+        "overview": "A detective's pursuit of a mysterious criminal leads him into the darkest corners of his mind.",
+        "genres": [
+            "Mystery",
+            "Crime"
+        ]
+    },
+    {
+        "short_id": 36,
+        "title": "The Last Escape",
+        "runtime": 100,
+        "backdrop_path": "/916x515/DC143C/FFFFFF?text=The+Last+Escape",
+        "poster_path": "/420x631/8A2BE2/FFFFFF?text=The+Last+Escape",
+        "overview": "A group of rebels must break into a high-security facility to rescue their captured leader.",
+        "genres": [
+            "Action",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 37,
+        "title": "Beyond the Horizon",
+        "runtime": 130,
+        "backdrop_path": "/916x515/32CD32/FFFFFF?text=Beyond+the+Horizon",
+        "poster_path": "/420x631/8B008B/FFFFFF?text=Beyond+the+Horizon",
+        "overview": "A journey across the stars uncovers a mystery that could change the course of human history.",
+        "genres": [
+            "Science Fiction",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 38,
+        "title": "Unseen Forces",
+        "runtime": 115,
+        "backdrop_path": "/916x515/8B0000/FFFFFF?text=Unseen+Forces",
+        "poster_path": "/420x631/FF6347/FFFFFF?text=Unseen+Forces",
+        "overview": "A scientist uncovers a hidden force that controls the fabric of reality itself.",
+        "genres": [
+            "Science Fiction",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 39,
+        "title": "The Eternal Guardian",
+        "runtime": 120,
+        "backdrop_path": "/916x515/483D8B/FFFFFF?text=The+Eternal+Guardian",
+        "poster_path": "/420x631/32CD32/FFFFFF?text=The+Eternal+Guardian",
+        "overview": "An ancient order of guardians must defend humanity from an ancient evil that has awakened.",
+        "genres": [
+            "Fantasy",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 40,
+        "title": "The Silent Code",
+        "runtime": 125,
+        "backdrop_path": "/916x515/6B8E23/FFFFFF?text=The+Silent+Code",
+        "poster_path": "/420x631/8B4513/FFFFFF?text=The+Silent+Code",
+        "overview": "A cryptographer decodes a secret message that sets off a chain of events leading to a global conspiracy.",
+        "genres": [
+            "Thriller",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 41,
+        "title": "Shattered Realms",
+        "runtime": 140,
+        "backdrop_path": "/916x515/00008B/FFFFFF?text=Shattered+Realms",
+        "poster_path": "/420x631/F4A460/FFFFFF?text=Shattered+Realms",
+        "overview": "An ancient realm is on the brink of destruction, and only a hero from another world can save it.",
+        "genres": [
+            "Fantasy",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 42,
+        "title": "The Skyfall Legacy",
+        "runtime": 130,
+        "backdrop_path": "/916x515/FFD700/FFFFFF?text=The+Skyfall+Legacy",
+        "poster_path": "/420x631/1E90FF/FFFFFF?text=The+Skyfall+Legacy",
+        "overview": "A family secret is uncovered that holds the key to an epic conflict between sky nations.",
+        "genres": [
+            "Fantasy",
+            "Drama"
+        ]
+    },
+    {
+        "short_id": 43,
+        "title": "The Abyssal Truth",
+        "runtime": 120,
+        "backdrop_path": "/916x515/8A2BE2/FFFFFF?text=The+Abyssal+Truth",
+        "poster_path": "/420x631/000000/FFFFFF?text=The+Abyssal+Truth",
+        "overview": "A deep-sea expedition uncovers the horrifying truth about life beneath the ocean's surface.",
+        "genres": [
+            "Horror",
+            "Science Fiction"
+        ]
+    },
+    {
+        "short_id": 44,
+        "title": "Crimson Winter",
+        "runtime": 110,
+        "backdrop_path": "/916x515/8B0000/FFFFFF?text=Crimson+Winter",
+        "poster_path": "/420x631/32CD32/FFFFFF?text=Crimson+Winter",
+        "overview": "A harsh winter ravages a remote town, and the residents must face a deadly threat lurking in the snow.",
+        "genres": [
+            "Horror",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 45,
+        "title": "The Lost Labyrinth",
+        "runtime": 105,
+        "backdrop_path": "/916x515/4B0082/FFFFFF?text=The+Lost+Labyrinth",
+        "poster_path": "/420x631/2F4F4F/FFFFFF?text=The+Lost+Labyrinth",
+        "overview": "A group of adventurers stumbles upon a long-forgotten labyrinth filled with deadly traps and puzzles.",
+        "genres": [
+            "Adventure",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 46,
+        "title": "Black Horizon",
+        "runtime": 135,
+        "backdrop_path": "/916x515/0000FF/FFFFFF?text=Black+Horizon",
+        "poster_path": "/420x631/6A5ACD/FFFFFF?text=Black+Horizon",
+        "overview": "A black hole threatens to destroy a distant galaxy, and only one team of astronauts can prevent the end.",
+        "genres": [
+            "Science Fiction",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 47,
+        "title": "Frostbound Kingdom",
+        "runtime": 125,
+        "backdrop_path": "/916x515/8A2BE2/FFFFFF?text=Frostbound+Kingdom",
+        "poster_path": "/420x631/FF6347/FFFFFF?text=Frostbound+Kingdom",
+        "overview": "In an icy world, a prince must unite the warring kingdoms to save his people from an ancient curse.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 48,
+        "title": "Echoes of the Void",
+        "runtime": 110,
+        "backdrop_path": "/916x515/6A5ACD/FFFFFF?text=Echoes+of+the+Void",
+        "poster_path": "/420x631/8B4513/FFFFFF?text=Echoes+of+the+Void",
+        "overview": "A mysterious voice calls from the void, urging a scientist to discover the origin of an ancient signal.",
+        "genres": [
+            "Science Fiction",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 49,
+        "title": "The Phantom Island",
+        "runtime": 120,
+        "backdrop_path": "/916x515/FF1493/FFFFFF?text=The+Phantom+Island",
+        "poster_path": "/420x631/008080/FFFFFF?text=The+Phantom+Island",
+        "overview": "An island that vanished centuries ago reappears, and a team of explorers sets off to investigate its mystery.",
+        "genres": [
+            "Adventure",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 50,
+        "title": "Wings of Fate",
+        "runtime": 140,
+        "backdrop_path": "/916x515/FF6347/FFFFFF?text=Wings+of+Fate",
+        "poster_path": "/420x631/1E90FF/FFFFFF?text=Wings+of+Fate",
+        "overview": "A young girl with the ability to fly must confront her destiny to save her world from destruction.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 51,
+        "title": "Inferno Rising",
+        "runtime": 130,
+        "backdrop_path": "/916x515/DC143C/FFFFFF?text=Inferno+Rising",
+        "poster_path": "/420x631/FF4500/FFFFFF?text=Inferno+Rising",
+        "overview": "A once-dormant volcano awakens and threatens to consume the entire region, forcing an unlikely group of survivors to escape.",
+        "genres": [
+            "Action",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 52,
+        "title": "Whispers of the Sea",
+        "runtime": 115,
+        "backdrop_path": "/916x515/00FFFF/FFFFFF?text=Whispers+of+the+Sea",
+        "poster_path": "/420x631/4682B4/FFFFFF?text=Whispers+of+the+Sea",
+        "overview": "A marine biologist discovers a hidden underwater civilization and must protect it from human exploitation.",
+        "genres": [
+            "Adventure",
+            "Science Fiction"
+        ]
+    },
+    {
+        "short_id": 53,
+        "title": "The Iron Path",
+        "runtime": 125,
+        "backdrop_path": "/916x515/8B4513/FFFFFF?text=The+Iron+Path",
+        "poster_path": "/420x631/2F4F4F/FFFFFF?text=The+Iron+Path",
+        "overview": "In a post-apocalyptic world, a former soldier embarks on a journey to restore peace to the war-torn lands.",
+        "genres": [
+            "Action",
+            "Drama"
+        ]
+    },
+    {
+        "short_id": 54,
+        "title": "The Blackened Heart",
+        "runtime": 120,
+        "backdrop_path": "/916x515/000000/FFFFFF?text=The+Blackened+Heart",
+        "poster_path": "/420x631/8A2BE2/FFFFFF?text=The+Blackened+Heart",
+        "overview": "A prince betrayed by his kingdom seeks revenge in the darkest corners of the realm, confronting his own heart.",
+        "genres": [
+            "Fantasy",
+            "Drama"
+        ]
+    },
+    {
+        "short_id": 55,
+        "title": "Emerald Dream",
+        "runtime": 105,
+        "backdrop_path": "/916x515/3CB371/FFFFFF?text=Emerald+Dream",
+        "poster_path": "/420x631/006400/FFFFFF?text=Emerald+Dream",
+        "overview": "A girl with the ability to enter people's dreams must uncover a dark secret to prevent a terrible fate.",
+        "genres": [
+            "Fantasy",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 56,
+        "title": "Dark Sun Eclipse",
+        "runtime": 140,
+        "backdrop_path": "/916x515/2F4F4F/FFFFFF?text=Dark+Sun+Eclipse",
+        "poster_path": "/420x631/0000FF/FFFFFF?text=Dark+Sun+Eclipse",
+        "overview": "The solar eclipse reveals a portal to a parallel dimension, and an unlikely hero must prevent a cosmic disaster.",
+        "genres": [
+            "Science Fiction",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 57,
+        "title": "Veil of Ice",
+        "runtime": 115,
+        "backdrop_path": "/916x515/ADD8E6/FFFFFF?text=Veil+of+Ice",
+        "poster_path": "/420x631/8B0000/FFFFFF?text=Veil+of+Ice",
+        "overview": "A cursed artifact buried in the ice holds the key to unlocking the fate of the ancient kingdom of Aeloria.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 58,
+        "title": "Shadows of Tomorrow",
+        "runtime": 120,
+        "backdrop_path": "/916x515/8B008B/FFFFFF?text=Shadows+of+Tomorrow",
+        "poster_path": "/420x631/FF1493/FFFFFF?text=Shadows+of+Tomorrow",
+        "overview": "A scientist invents a machine that allows people to glimpse their future, but it soon begins to unravel reality itself.",
+        "genres": [
+            "Science Fiction",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 59,
+        "title": "Crimson Down",
+        "runtime": 125,
+        "backdrop_path": "/916x515/800000/FFFFFF?text=Crimson+Down",
+        "poster_path": "/420x631/32CD32/FFFFFF?text=Crimson+Down",
+        "overview": "In a dystopian world, the last survivors must climb to the top of a colossal tower to escape a deadly red sky.",
+        "genres": [
+            "Action",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 60,
+        "title": "Rise of the Fallen",
+        "runtime": 135,
+        "backdrop_path": "/916x515/FF4500/FFFFFF?text=Rise+of+the+Fallen",
+        "poster_path": "/420x631/4B0082/FFFFFF?text=Rise+of+the+Fallen",
+        "overview": "An ancient fallen hero awakens, leading a group of unlikely warriors to stop an impending apocalypse.",
+        "genres": [
+            "Fantasy",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 61,
+        "title": "Hollow Ground",
+        "runtime": 100,
+        "backdrop_path": "/916x515/00008B/FFFFFF?text=Hollow+Ground",
+        "poster_path": "/420x631/DC143C/FFFFFF?text=Hollow+Ground",
+        "overview": "A small town on a barren plateau is terrorized by a malevolent spirit from the past, and only a cursed artifact can save it.",
+        "genres": [
+            "Horror",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 62,
+        "title": "Eclipse of the Heart",
+        "runtime": 110,
+        "backdrop_path": "/916x515/800080/FFFFFF?text=Eclipse+of+the+Heart",
+        "poster_path": "/420x631/FFD700/FFFFFF?text=Eclipse+of+the+Heart",
+        "overview": "A forbidden love threatens to tear apart the fabric of reality during a celestial event that only occurs once every millennium.",
+        "genres": [
+            "Romance",
+            "Fantasy"
+        ]
+    },
+    {
+        "short_id": 63,
+        "title": "Rogue Waves",
+        "runtime": 130,
+        "backdrop_path": "/916x515/0000CD/FFFFFF?text=Rogue+Waves",
+        "poster_path": "/420x631/00BFFF/FFFFFF?text=Rogue+Waves",
+        "overview": "A group of oceanographers must survive a series of massive, rogue waves while unraveling a sinister conspiracy.",
+        "genres": [
+            "Thriller",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 64,
+        "title": "Fallen Star",
+        "runtime": 120,
+        "backdrop_path": "/916x515/FFD700/FFFFFF?text=Fallen+Star",
+        "poster_path": "/420x631/2E8B57/FFFFFF?text=Fallen+Star",
+        "overview": "A fallen star crashes to Earth, bringing a powerful entity that threatens to reshape human destiny.",
+        "genres": [
+            "Fantasy",
+            "Science Fiction"
+        ]
+    },
+    {
+        "short_id": 65,
+        "title": "Dark Matter Chronicles",
+        "runtime": 135,
+        "backdrop_path": "/916x515/4B0082/FFFFFF?text=Dark+Matter+Chronicles",
+        "poster_path": "/420x631/0000FF/FFFFFF?text=Dark+Matter+Chronicles",
+        "overview": "A physicist unlocks the secrets of dark matter, inadvertently opening a gateway to an alternate universe.",
+        "genres": [
+            "Science Fiction",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 66,
+        "title": "Mystic Winds",
+        "runtime": 125,
+        "backdrop_path": "/916x515/DAA520/FFFFFF?text=Mystic+Winds",
+        "poster_path": "/420x631/FF6347/FFFFFF?text=Mystic+Winds",
+        "overview": "An ancient prophecy awakens when powerful winds carrying mysterious forces begin to sweep across the land.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 67,
+        "title": "Aether's Embrace",
+        "runtime": 115,
+        "backdrop_path": "/916x515/4B0082/FFFFFF?text=Aether's+Embrace",
+        "poster_path": "/420x631/FF4500/FFFFFF?text=Aether's+Embrace",
+        "overview": "A sorcerer discovers a portal to the Aether and must choose whether to save his world or succumb to its overwhelming power.",
+        "genres": [
+            "Fantasy",
+            "Drama"
+        ]
+    },
+    {
+        "short_id": 68,
+        "title": "Ghosts of the Past",
+        "runtime": 105,
+        "backdrop_path": "/916x515/8B0000/FFFFFF?text=Ghosts+of+the+Past",
+        "poster_path": "/420x631/8A2BE2/FFFFFF?text=Ghosts+of+the+Past",
+        "overview": "A detective investigates a series of haunting events that seem to be tied to an unsolved murder from decades ago.",
+        "genres": [
+            "Mystery",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 69,
+        "title": "Skyward Bound",
+        "runtime": 130,
+        "backdrop_path": "/916x515/32CD32/FFFFFF?text=Skyward+Bound",
+        "poster_path": "/420x631/00FF00/FFFFFF?text=Skyward+Bound",
+        "overview": "In a world where flying is impossible, a rebellious young woman builds a machine that can soar among the clouds.",
+        "genres": [
+            "Adventure",
+            "Science Fiction"
+        ]
+    },
+    {
+        "short_id": 70,
+        "title": "Wings of the Storm",
+        "runtime": 110,
+        "backdrop_path": "/916x515/7B68EE/FFFFFF?text=Wings+of+the+Storm",
+        "poster_path": "/420x631/2F4F4F/FFFFFF?text=Wings+of+the+Storm",
+        "overview": "A group of elite pilots must stop a deadly storm that threatens to engulf the entire continent.",
+        "genres": [
+            "Action",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 71,
+        "title": "Cursed Empire",
+        "runtime": 120,
+        "backdrop_path": "/916x515/8A2BE2/FFFFFF?text=Cursed+Empire",
+        "poster_path": "/420x631/FFD700/FFFFFF?text=Cursed+Empire",
+        "overview": "A kingdom cursed by an ancient force must face its demons in a final battle for survival.",
+        "genres": [
+            "Fantasy",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 72,
+        "title": "Veins of Fire",
+        "runtime": 130,
+        "backdrop_path": "/916x515/DC143C/FFFFFF?text=Veins+of+Fire",
+        "poster_path": "/420x631/FF6347/FFFFFF?text=Veins+of+Fire",
+        "overview": "A young girl discovers she has the power to control fire, but with it comes a dangerous destiny.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 73,
+        "title": "Hope",
+        "runtime": 125,
+        "backdrop_path": "/916x515/00008B/FFFFFF?text=Hope",
+        "poster_path": "/420x631/8B0000/FFFFFF?text=Hope",
+        "overview": "After losing everything, a young woman sets out on a dangerous journey to restore peace, discovering that hope can spark change and lead to redemption.",
+        "genres": [
+            "Drama",
+            "Thriller",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 74,
+        "title": "Silent Eclipse",
+        "runtime": 115,
+        "backdrop_path": "/916x515/2F4F4F/FFFFFF?text=Silent+Eclipse",
+        "poster_path": "/420x631/8B008B/FFFFFF?text=Silent+Eclipse",
+        "overview": "During a total eclipse, a mysterious silence falls over the world, and strange occurrences begin to unfold.",
+        "genres": [
+            "Science Fiction",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 75,
+        "title": "Shattered Sky",
+        "runtime": 140,
+        "backdrop_path": "/916x515/FF1493/FFFFFF?text=Shattered+Sky",
+        "poster_path": "/420x631/FF4500/FFFFFF?text=Shattered+Sky",
+        "overview": "A space station is struck by an unknown force, and the survivors must uncover the truth behind the cosmic disaster.",
+        "genres": [
+            "Science Fiction",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 76,
+        "title": "Nightfall Chronicles",
+        "runtime": 130,
+        "backdrop_path": "/916x515/4B0082/FFFFFF?text=Nightfall+Chronicles",
+        "poster_path": "/420x631/000000/FFFFFF?text=Nightfall+Chronicles",
+        "overview": "In a world where the sun has vanished, a group of survivors struggles to maintain humanity amidst eternal night.",
+        "genres": [
+            "Fantasy",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 77,
+        "title": "Echoes of Silence",
+        "runtime": 125,
+        "backdrop_path": "/916x515/6A5ACD/FFFFFF?text=Echoes+of+Silence",
+        "poster_path": "/420x631/32CD32/FFFFFF?text=Echoes+of+Silence",
+        "overview": "A deaf girl begins to hear disturbing echoes from an alternate dimension, leading her into a dangerous mystery.",
+        "genres": [
+            "Thriller",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 78,
+        "title": "The Ice Queen's Wrath",
+        "runtime": 120,
+        "backdrop_path": "/916x515/4682B4/FFFFFF?text=The+Ice+Queen's+Wrath",
+        "poster_path": "/420x631/8B0000/FFFFFF?text=The+Ice+Queen's+Wrath",
+        "overview": "A young princess must confront an ancient ice queen who seeks to engulf the world in eternal winter.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 79,
+        "title": "Wicked Hunt",
+        "runtime": 115,
+        "backdrop_path": "/916x515/006400/FFFFFF?text=Wicked+Hunt",
+        "poster_path": "/420x631/8A2BE2/FFFFFF?text=Wicked+Hunt",
+        "overview": "A skilled hunter must track down a dangerous predator that has been terrorizing the nearby village.",
+        "genres": [
+            "Action",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 80,
+        "title": "The Last Phoenix",
+        "runtime": 130,
+        "backdrop_path": "/916x515/F4A460/FFFFFF?text=The+Last+Phoenix",
+        "poster_path": "/420x631/FF6347/FFFFFF?text=The+Last+Phoenix",
+        "overview": "A mythological creature, the last of its kind, holds the key to saving the world from impending destruction.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 81,
+        "title": "Tempest's Fury",
+        "runtime": 125,
+        "backdrop_path": "/916x515/8B0000/FFFFFF?text=Tempest's+Fury",
+        "poster_path": "/420x631/0000FF/FFFFFF?text=Tempest's+Fury",
+        "overview": "A raging storm threatens a coastal city, and a team of specialists must uncover the source of its power.",
+        "genres": [
+            "Action",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 82,
+        "title": "The Immortal Blade",
+        "runtime": 140,
+        "backdrop_path": "/916x515/8B008B/FFFFFF?text=The+Immortal+Blade",
+        "poster_path": "/420x631/2E8B57/FFFFFF?text=The+Immortal+Blade",
+        "overview": "A legendary sword, said to grant immortality, has been lost for centuries, and a group of adventurers sets out to find it.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 83,
+        "title": "The Obsidian Curse",
+        "runtime": 115,
+        "backdrop_path": "/916x515/483D8B/FFFFFF?text=The+Obsidian+Curse",
+        "poster_path": "/420x631/32CD32/FFFFFF?text=The+Obsidian+Curse",
+        "overview": "An ancient curse tied to a mysterious obsidian stone threatens to destroy the lives of anyone who possesses it.",
+        "genres": [
+            "Thriller",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 84,
+        "title": "Winds of War",
+        "runtime": 130,
+        "backdrop_path": "/916x515/8B0000/FFFFFF?text=Winds+of+War",
+        "poster_path": "/420x631/6A5ACD/FFFFFF?text=Winds+of+War",
+        "overview": "In a kingdom ravaged by civil war, a young general must navigate treacherous alliances to reclaim his throne.",
+        "genres": [
+            "Action",
+            "Drama"
+        ]
+    },
+    {
+        "short_id": 85,
+        "title": "Rise of the Shadows",
+        "runtime": 140,
+        "backdrop_path": "/916x515/483D8B/FFFFFF?text=Rise+of+the+Shadows",
+        "poster_path": "/420x631/FF6347/FFFFFF?text=Rise+of+the+Shadows",
+        "overview": "A group of rebels uncovers a shadowy force that controls their world, and they must band together to rise against it.",
+        "genres": [
+            "Fantasy",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 86,
+        "title": "Storm of Souls",
+        "runtime": 125,
+        "backdrop_path": "/916x515/DAA520/FFFFFF?text=Storm+of+Souls",
+        "poster_path": "/420x631/2F4F4F/FFFFFF?text=Storm+of+Souls",
+        "overview": "A storm of souls causes spirits to possess the living, and a group of survivors must stop the storm before it engulfs humanity.",
+        "genres": [
+            "Horror",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 87,
+        "title": "The Final Convergence",
+        "runtime": 140,
+        "backdrop_path": "/916x515/32CD32/FFFFFF?text=The+Final+Convergence",
+        "poster_path": "/420x631/8B0000/FFFFFF?text=The+Final+Convergence",
+        "overview": "A cosmic event brings together multiple universes, and the fate of existence hangs in the balance.",
+        "genres": [
+            "Science Fiction",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 88,
+        "title": "Silent Storm",
+        "runtime": 120,
+        "backdrop_path": "/916x515/8A2BE2/FFFFFF?text=Silent+Storm",
+        "poster_path": "/420x631/1E90FF/FFFFFF?text=Silent+Storm",
+        "overview": "A silent storm approaches, and a small group of survivors must find shelter while uncovering the truth behind it.",
+        "genres": [
+            "Thriller",
+            "Horror"
+        ]
+    },
+    {
+        "short_id": 89,
+        "title": "Mystic Forest",
+        "runtime": 110,
+        "backdrop_path": "/916x515/228B22/FFFFFF?text=Mystic+Forest",
+        "poster_path": "/420x631/006400/FFFFFF?text=Mystic+Forest",
+        "overview": "A group of explorers venture into an enchanted forest, unaware that the spirits within will test their limits.",
+        "genres": [
+            "Adventure",
+            "Fantasy"
+        ]
+    },
+    {
+        "short_id": 90,
+        "title": "The Labyrinth of Time",
+        "runtime": 125,
+        "backdrop_path": "/916x515/D2691E/FFFFFF?text=The+Labyrinth+of+Time",
+        "poster_path": "/420x631/8B008B/FFFFFF?text=The+Labyrinth+of+Time",
+        "overview": "A time traveler must navigate an ancient labyrinth to prevent the collapse of time itself.",
+        "genres": [
+            "Science Fiction",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 91,
+        "title": "Eternal Flame",
+        "runtime": 130,
+        "backdrop_path": "/916x515/FF6347/FFFFFF?text=Eternal+Flame",
+        "poster_path": "/420x631/4B0082/FFFFFF?text=Eternal+Flame",
+        "overview": "A group of warriors embarks on a quest to extinguish the Eternal Flame before it destroys their world.",
+        "genres": [
+            "Fantasy",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 92,
+        "title": "Starlight Chronicles",
+        "runtime": 140,
+        "backdrop_path": "/916x515/00008B/FFFFFF?text=Starlight+Chronicles",
+        "poster_path": "/420x631/FFFF00/FFFFFF?text=Starlight+Chronicles",
+        "overview": "In a future where stars begin to vanish, a group of adventurers discovers the truth behind the celestial disappearance.",
+        "genres": [
+            "Science Fiction",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 93,
+        "title": "Frostborn",
+        "runtime": 120,
+        "backdrop_path": "/916x515/4682B4/FFFFFF?text=Frostborn",
+        "poster_path": "/420x631/7B68EE/FFFFFF?text=Frostborn",
+        "overview": "A young warrior must battle a deadly frost creature that has brought eternal winter to his homeland.",
+        "genres": [
+            "Fantasy",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 94,
+        "title": "The Raven's Song",
+        "runtime": 115,
+        "backdrop_path": "/916x515/000000/FFFFFF?text=The+Raven's+Song",
+        "poster_path": "/420x631/4B0082/FFFFFF?text=The+Raven's+Song",
+        "overview": "A grieving poet discovers that his late wife\u2019s soul is trapped in a mysterious song sung by a raven.",
+        "genres": [
+            "Fantasy",
+            "Mystery"
+        ]
+    },
+    {
+        "short_id": 95,
+        "title": "The Silent Sea",
+        "runtime": 130,
+        "backdrop_path": "/916x515/2F4F4F/FFFFFF?text=The+Silent+Sea",
+        "poster_path": "/420x631/4682B4/FFFFFF?text=The+Silent+Sea",
+        "overview": "A crew of astronauts embarks on a mission to explore a silent and mysterious sea on a distant planet.",
+        "genres": [
+            "Science Fiction",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 96,
+        "title": "Vortex of Shadows",
+        "runtime": 125,
+        "backdrop_path": "/916x515/8A2BE2/FFFFFF?text=Vortex+of+Shadows",
+        "poster_path": "/420x631/8B008B/FFFFFF?text=Vortex+of+Shadows",
+        "overview": "A portal to another dimension begins to open, unleashing terrifying shadows that threaten to consume the world.",
+        "genres": [
+            "Fantasy",
+            "Horror"
+        ]
+    },
+    {
+        "short_id": 97,
+        "title": "Last of the Titans",
+        "runtime": 140,
+        "backdrop_path": "/916x515/32CD32/FFFFFF?text=Last+of+the+Titans",
+        "poster_path": "/420x631/0000CD/FFFFFF?text=Last+of+the+Titans",
+        "overview": "The last surviving titans fight for their existence in a world where their kind has been hunted to extinction.",
+        "genres": [
+            "Fantasy",
+            "Action"
+        ]
+    },
+    {
+        "short_id": 98,
+        "title": "Blood Moon Rising",
+        "runtime": 130,
+        "backdrop_path": "/916x515/FF4500/FFFFFF?text=Blood+Moon+Rising",
+        "poster_path": "/420x631/FF6347/FFFFFF?text=Blood+Moon+Rising",
+        "overview": "As the blood moon rises, the veil between the living and the dead begins to fade, unleashing chaos upon the earth.",
+        "genres": [
+            "Horror",
+            "Thriller"
+        ]
+    },
+    {
+        "short_id": 99,
+        "title": "Frozen Kingdom",
+        "runtime": 115,
+        "backdrop_path": "/916x515/5F9EA0/FFFFFF?text=Frozen+Kingdom",
+        "poster_path": "/420x631/00008B/FFFFFF?text=Frozen+Kingdom",
+        "overview": "A kingdom trapped in eternal winter holds the secret to reversing the curse, and a lone adventurer must uncover it.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    {
+        "short_id": 100,
+        "title": "Chronicles of the Fallen",
+        "runtime": 135,
+        "backdrop_path": "/916x515/D2691E/FFFFFF?text=Chronicles+of+the+Fallen",
+        "poster_path": "/420x631/8A2BE2/FFFFFF?text=Chronicles+of+the+Fallen",
+        "overview": "A fallen god returns to claim dominion over the world, and a group of unlikely heroes must stop him from succeeding.",
+        "genres": [
+            "Fantasy",
+            "Action"
+        ]
+    }
+]

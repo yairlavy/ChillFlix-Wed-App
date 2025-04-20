@@ -1,0 +1,118 @@
+:root {
+  --tile-width: 276.5px;
+  --tile-height: calc(var(--tile-width) / (16 / 9)); /* Aspect ratio (16:9) */
+  --grow-factor: 1.3;
+  --move-left: calc(-1 * var(--tile-width) * (var(--grow-factor) - 1) / 2);
+  --move-right: calc(var(--tile-width) * (var(--grow-factor) - 1));
+}
+
+.browse{
+  margin-top: 0px;
+  background: #141414;
+  color: #f2f2f2;
+  font-family: sans-serif, Arial;
+  margin-top: 520px;
+}
+
+body {
+  background: #141414;
+  font-family: sans-serif, Arial;
+}
+
+.movie-link {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Ensure text color is white */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.random {
+  display: block;
+  position: fixed;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 500px;
+  padding: 0;
+}
+
+
+/*Category Section*/
+.category-section {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.category-title {
+  padding-left: 50px;
+}
+
+.movie-slider {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+/*Movie-grid*/
+.movie-grid {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  padding-left: 53px;
+  padding-right: 53px;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.movie-grid:hover .tile {
+  opacity: 0.3;
+}
+
+.movie-grid:hover .tile:hover {
+  transform: scale(var(--grow-factor));
+  opacity: 1;
+}
+
+.tile:hover ~ .tile {
+  transform: translate3d(var(--move-right), 0, 0);
+}
+
+
+/* Arrows */
+.scroll-arrow {
+  position: absolute;
+  top: 50%;
+  height: var(--tile-height);
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+  opacity: 0; 
+  transition: 450ms all;
+}
+
+.left {
+  left: 0px; /* Position left arrow */
+}
+
+.right {
+  right: 0px; /* Position right arrow */
+}
+
+.scroll-arrow:hover {
+  opacity: 1;
+  background-color: rgba(22, 22, 22, 0.5);
+}
